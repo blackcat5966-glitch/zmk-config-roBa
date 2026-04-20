@@ -59,15 +59,3 @@
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 };
-&zip_temp_layer {
-    excluded-positions = <
-        11 // S
-        12 // D
-        13 // F
-        17 // H
-        18 // J
-        19 // K
-        20 // L
-        29 // N
-    >;
-};
