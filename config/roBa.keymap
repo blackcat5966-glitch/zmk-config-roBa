@@ -10,7 +10,7 @@
     quick-tap-ms = <0>;
 };
 
-&trackball {j
+&trackball {
     scroll-layers = <5>;
 
     // arrows {
